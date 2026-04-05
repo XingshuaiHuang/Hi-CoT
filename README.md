@@ -1,6 +1,6 @@
 # Hi-CoT: Hierarchical Chain-of-Thought Prompting
 
-**Hierarchical Chain-of-Thought Prompting: Enhancing LLM Reasoning Performance and Efficiency**
+[**Hierarchical Chain-of-Thought Prompting: Enhancing LLM Reasoning Performance and Efficiency**](https://arxiv.org/pdf/2604.00130)
 
 ## Overview
 
@@ -96,3 +96,17 @@ The summary includes per-benchmark accuracy, average response length, and hierar
 ## Acknowledgements
 
 This codebase is adapted from the [OAT](https://github.com/sail-sg/oat) repository. We thank the OAT authors for open-sourcing their work, which served as the foundation for our evaluation pipeline.
+
+---
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{huang2026hierarchical,
+  title={Hierarchical Chain-of-Thought Prompting: Enhancing LLM Reasoning Performance and Efficiency},
+  author={Huang, Xingshuai and Li, Derek and Nikpour, Bahareh and Omidi, Parsa},
+  journal={arXiv preprint arXiv:2604.00130},
+  year={2026}
+}

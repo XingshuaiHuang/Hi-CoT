@@ -1,6 +1,6 @@
-# Hi-CoT: Hierarchical Chain-of-Thought Prompting
+# Hi-CoT: Hierarchical Chain-of-Thought
 
-[**Hierarchical Chain-of-Thought Prompting: Enhancing LLM Reasoning Performance and Efficiency**](https://arxiv.org/pdf/2604.00130)
+[**Hierarchical Chain-of-Thought: Enhancing LLM Reasoning Performance and Efficiency**](https://arxiv.org/pdf/2604.00130)
 
 ## Overview
 
@@ -27,7 +27,7 @@ The following prompting strategies are supported via the `--template` flag:
 
 ## Supported Models
 
-- `Qwen/Qwen2.5-Math-*` family
+- `Qwen/Qwen3-*` family
 - `deepseek-ai/DeepSeek-R1-Distill-*` family
 
 ---
@@ -56,7 +56,7 @@ Ensure your evaluation data is available at `./data/evaluation_suite` (a Hugging
 
 ```bash
 python eval.py \
-  --model_name Qwen/Qwen2.5-Math-1.5B \
+  --model_name Qwen/Qwen3-1.7B \
   --template hicot \
   --tasks aime amc math minerva olympiad_bench \
   --temperature 0 \
@@ -68,7 +68,7 @@ python eval.py \
 
 | Argument | Default | Description |
 |---|---|---|
-| `--model_name` | `Qwen/Qwen2.5-Math-1.5B` | HuggingFace model identifier |
+| `--model_name` | `Qwen/Qwen3-1.7B` | HuggingFace model identifier |
 | `--template` | `qwen_math` | Prompting strategy (see above) |
 | `--tasks` | all benchmarks | List of benchmarks to evaluate |
 | `--temperature` | `0` | Sampling temperature |
